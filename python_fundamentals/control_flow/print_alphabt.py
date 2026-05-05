@@ -5,4 +5,4 @@ for i in range(ord('a'), ord('z') + 1):
     lettre = chr(i)
     if lettre != 'q' and lettre != 'e':
         resultat += lettre
-print(f"{resultat}", end="\n")
+print("{}".format(resultat))
