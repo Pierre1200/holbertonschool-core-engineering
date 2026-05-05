@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-i = 0
+
+resultat = ""
 for i in range(ord('a'), ord('z') + 1):
     lettre = chr(i)
     if lettre != 'q' and lettre != 'e':
-        print(lettre, end="")
-print()
+        resultat += lettre
+print(f"{resultat}", end="\n")
