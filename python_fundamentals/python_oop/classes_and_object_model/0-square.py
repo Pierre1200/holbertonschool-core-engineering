@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ce module définit une classe Square vide."""
+"""Defines a class Square"""
 
 
 class Square:
