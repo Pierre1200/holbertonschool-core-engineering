@@ -6,4 +6,7 @@ Définit une classe Square (Carré).
 
 
 class Square:
+    """
+    class Square définit
+    """
     pass
