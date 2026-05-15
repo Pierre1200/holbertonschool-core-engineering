@@ -2,18 +2,7 @@
 """ Module BaseGeometry """
 
 
-class BaseGeometry:
-    """Classe BaseGeometry"""
-    def area(self):
-        """ Définit l'aire """
-        raise Exception("area() is not implemented")
-
-    def integer_validator(self, name, value):
-        """ Valide si value est un entier strictement positif """
-        if type(value) is not int:
-            raise TypeError("{} must be an integer".format(name))
-        if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
+BaseGeometry = __import__('0-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
