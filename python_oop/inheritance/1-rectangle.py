@@ -3,7 +3,7 @@
 
 
 BaseGeometry = __import__('0-base_geometry').BaseGeometry
-
+    """import de base_geometrie"""
 
 class Rectangle(BaseGeometry):
     """Classe rectangle"""
