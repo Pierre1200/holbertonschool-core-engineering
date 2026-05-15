@@ -8,7 +8,7 @@ class BaseGeometry:
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value)
-        """ Valide si value est un entier strictement positif """
+        """ Valide si value est un entier strictement positif integer_validation """
         if type(value) is not int:
             raise TypeError("{} must be an integer".format(value))
         if value <= 0:
