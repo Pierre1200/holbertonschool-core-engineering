@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Module BaseGeometry """
-Rectangle = __import__('1-rectangle').Rectangle
+Rectangle = __import__('2-rectangle').Rectangle
 
 
 class Square(Rectangle):
