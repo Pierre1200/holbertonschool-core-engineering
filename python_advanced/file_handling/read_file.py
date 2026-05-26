@@ -4,6 +4,6 @@
 
 def read_file(filename=""):
     """Fonction de lecture"""
-    with open("", "r", encoding="utf-8") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
-        print(content)
+        print(content, end="")
