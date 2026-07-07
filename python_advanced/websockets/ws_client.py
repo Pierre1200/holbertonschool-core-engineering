@@ -9,7 +9,7 @@ async def connect_and_send(uri, message):
     async with websockets.connect(uri) as websocket:
         await websocket.send(message)
         response = await websocket.recv()
-        print(f"{response}")
+        return response
 
 
 if __name__ == "__main__":
