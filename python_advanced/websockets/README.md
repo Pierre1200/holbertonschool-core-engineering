@@ -1,8 +1,5 @@
 Real-time communication with WebSockets
- Amateur
- By: Javier Valenzani
- Weight: 1
- Your score will be updated as you progress.
+ 
 Introduction
 Traditional HTTP communication follows a request–response model, where the client initiates every interaction and the server responds. This model is not suitable for applications that require continuous updates, such as chat systems, live dashboards, or collaborative tools.
 
