@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from starlette.applications import Starlette
 from starlette.responses import HTMLResponse
 from starlette.routing import Route, WebSocketRoute
